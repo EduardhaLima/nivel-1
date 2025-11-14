@@ -14,3 +14,13 @@ console.log(nome.substring(2,5)) //para selecionar apenas o que esta na posicao 
 
 console.log(nome.slice(-4)) //recebe numeros negativos, ou seja, vai imprimir de tras para frente de acordo com a localizacao que pedimos
 //pode funcionar tambem como uma substring, com a vantagem de ter numeros negativos
+
+//concatenar
+
+let sobrenome = "Silva"
+
+console.log(nome + sobrenome) //sem espaco
+console.log(nome.concat(sobrenome)) //sem espaco
+console.log(`${nome} ${sobrenome}`) //com espaco
+console.log(`O meu nome é ${nome}. O meu sobrenome é ${sobrenome}`) //com espaco
+console.log(nome + " " + sobrenome) //com espaco
